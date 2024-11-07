@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #D5ADA5;
+  font-family: -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+      "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: "Shadows Into Light";
+  text-align: center;
+  font-size: 7rem;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container {
+    max-width: none;
+}
+
+.navbar, .nav-link, .navbar-brand { 
+  font-family: "Shadows Into Light";
+  font-size: 1.5rem; 
+}
+
+.pmt {
+  margin-top: 50px;
+  padding-bottom: 660px;
+  text-align: center;
+}
+
+.Schedule {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+.marginHeader {
+  margin-top: 50px;
+  text-align: center;
+}
