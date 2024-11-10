@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row } from 'react-bootstrap';
 import Column from 'react-bootstrap/Col';
-// import Image from 'react-bootstrap/Image';
 import Schedule from './Schedule';
 import Story from './Story';
 import "../styles/App.css";
@@ -10,12 +9,17 @@ function Homepage() {
     return (
       <Container fluid>
       <Row>
-        <div id="wedHome">
-          <Column className="pmt mt-5">
+      <div className="container-fluid homepage-bgimage">
+        <div id="wedHome" >  
+          <Column className="pmt mt-8">
             <h1>James &amp; Apple</h1>
-            <h3>Saturday, February 8, 2025 | Chapel On The Hill</h3>
+            <h3>Saturday, February 8, 2025</h3>
           </Column>
+          {/* <Column className="mt-5">&nbsp;&nbsp;
+            <h3>Saturday, February 8, 2025 | Chapel On The Hill</h3>
+          </Column> */}
         </div>
+      </div>
       </Row>
       <Row>
         <div id="story">

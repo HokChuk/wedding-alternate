@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../fonts/Agrandir-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Agrandir Bold';
+  src: url('../fonts/Agrandir-TextBold.otf');
+}
+
 body {
   margin: 0;
   margin-left: 0;
@@ -11,15 +21,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3 {
-  font-family: "Shadows Into Light";
-  text-align: center;
-  font-size: 7rem;
-  color: white;
+.homepage-bgimage {
+  background: url("../img/home-bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 , h3 {
+  font-family: "Cormorant Garamond";
+  font-size: 4rem;
+  color: #c85103;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bolder;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-family: "Agrandir"
 }
 
 .container {
@@ -27,10 +48,14 @@ h3 {
 }
 
 .navbar, .nav-link, .navbar-brand { 
-  font-family: "Shadows Into Light";
+  font-family: "Cormorant Garamond";
   font-size: 1.5rem; 
+  /* color: white; */
 }
 
+.navbar-brand {
+  font-family: "Parisienne";
+}
 .pmt {
   margin-top: 50px;
   padding-bottom: 660px;
@@ -44,5 +69,5 @@ h3 {
 
 .marginHeader {
   margin-top: 50px;
-  text-align: center;
 }
+
